@@ -123,7 +123,7 @@ public class calci {
 		btn0.setBounds(10, 296, 65, 54);
 		frame.getContentPane().add(btn0);
 		
-		JButton btnClear = new JButton("C");
+		JButton btnClear = new JButton("CLE");
 		btnClear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				textField.setText(null);
